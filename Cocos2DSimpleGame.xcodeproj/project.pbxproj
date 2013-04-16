@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720308DC17165E1700EDD3A3 /* cannon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 720308DB17165E1700EDD3A3 /* cannon.jpeg */; };
+		7238E7171716753F00E222D5 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7238E7161716753F00E222D5 /* GameOverScene.m */; };
 		729FF7C71715572900EE0153 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729FF7C61715572900EE0153 /* QuartzCore.framework */; };
 		729FF7C91715572900EE0153 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729FF7C81715572900EE0153 /* OpenGLES.framework */; };
 		729FF7CB1715572900EE0153 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729FF7CA1715572900EE0153 /* OpenAL.framework */; };
@@ -139,9 +141,17 @@
 		729FF9681715572E00EE0153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 729FF9671715572E00EE0153 /* AppDelegate.m */; };
 		729FF96B1715572E00EE0153 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 729FF96A1715572E00EE0153 /* HelloWorldLayer.m */; };
 		729FF96E1715572E00EE0153 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 729FF96D1715572E00EE0153 /* IntroLayer.m */; };
+		729FF9771715594500EE0153 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 729FF9741715594500EE0153 /* Player.png */; };
+		729FF9781715594500EE0153 /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 729FF9751715594500EE0153 /* Projectile.png */; };
+		729FF9791715594500EE0153 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 729FF9761715594500EE0153 /* Target.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		720308D717165CB500EDD3A3 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		720308D817165CB500EDD3A3 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		720308DB17165E1700EDD3A3 /* cannon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cannon.jpeg; sourceTree = "<group>"; };
+		7238E7151716753F00E222D5 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		7238E7161716753F00E222D5 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 		729FF7C31715572900EE0153 /* Cocos2DSimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocos2DSimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729FF7C61715572900EE0153 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		729FF7C81715572900EE0153 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -420,6 +430,9 @@
 		729FF96A1715572E00EE0153 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		729FF96C1715572E00EE0153 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		729FF96D1715572E00EE0153 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		729FF9741715594500EE0153 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		729FF9751715594500EE0153 /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Projectile.png; sourceTree = "<group>"; };
+		729FF9761715594500EE0153 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,6 +491,8 @@
 		729FF7D81715572900EE0153 /* Cocos2DSimpleGame */ = {
 			isa = PBXGroup;
 			children = (
+				7238E7151716753F00E222D5 /* GameOverScene.h */,
+				7238E7161716753F00E222D5 /* GameOverScene.m */,
 				729FF9661715572E00EE0153 /* AppDelegate.h */,
 				729FF9671715572E00EE0153 /* AppDelegate.m */,
 				729FF9691715572E00EE0153 /* HelloWorldLayer.h */,
@@ -494,6 +509,12 @@
 		729FF7D91715572900EE0153 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				720308DB17165E1700EDD3A3 /* cannon.jpeg */,
+				720308D717165CB500EDD3A3 /* background-music-aac.caf */,
+				720308D817165CB500EDD3A3 /* pew-pew-lei.caf */,
+				729FF9741715594500EE0153 /* Player.png */,
+				729FF9751715594500EE0153 /* Projectile.png */,
+				729FF9761715594500EE0153 /* Target.png */,
 				729FF7DA1715572900EE0153 /* Default.png */,
 				729FF7DC1715572900EE0153 /* Default@2x.png */,
 				729FF7DE1715572900EE0153 /* Default-568h@2x.png */,
@@ -933,6 +954,10 @@
 				729FF7ED1715572900EE0153 /* Icon@2x.png in Resources */,
 				729FF7F01715572900EE0153 /* iTunesArtwork in Resources */,
 				729FF9461715572E00EE0153 /* ChangeLog in Resources */,
+				729FF9771715594500EE0153 /* Player.png in Resources */,
+				729FF9781715594500EE0153 /* Projectile.png in Resources */,
+				729FF9791715594500EE0153 /* Target.png in Resources */,
+				720308DC17165E1700EDD3A3 /* cannon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1054,6 +1079,7 @@
 				729FF9681715572E00EE0153 /* AppDelegate.m in Sources */,
 				729FF96B1715572E00EE0153 /* HelloWorldLayer.m in Sources */,
 				729FF96E1715572E00EE0153 /* IntroLayer.m in Sources */,
+				7238E7171716753F00E222D5 /* GameOverScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1159,6 +1185,7 @@
 				729FF9731715572E00EE0153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
